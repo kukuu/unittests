@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Testing Tabs AngularJS+jQuiery</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/ui/1.8.18/jquery-ui.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/themes/base/jquery-ui.css">
+  <script type="text/javascript" src="http://code.angularjs.org/1.0.3/angular.min.js"></script>
+  <style type="text/css">
+        body {
+         padding: 20px;   
+        }
+        #tabs {
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+        }
+        ul li {
+          display: inline-block;
+        }
+        li a {
+          padding-right:65px; 
+        }
+        #tabs p,#tab2 p,#tab3 p,#tab4 p ,#tab5 p  {
+          padding-left: 60px;
+        }
+  </style> 
+</head>
+<body ng-app='myApp'>
+    <div ng-controller="MainController">
+        <div data-cdTabs-tabs id="tabs">
+            <ul>
+                <li><a href="#tabs-1">MY CHANNEL</a></li>
+                <li><a href="#tabs-2">SPORT</a></li>
+                <li><a href="#tabs-3">NEWS</a></li>
+                <li><a href="#tabs-4">DRAMA</a></li>
+                <li><a href="#tabs-5">FILM</a></li>
+            </ul>
+            <div id="tabs-1">
+                <p>Content for MY CHANNEL</p>
+            </div>
+            <div id="tabs-2">
+                <p>Content for SPORT</p>
+            </div>
+            <div id="tabs-3">
+                <p>Content for NEWS</p>
+            </div>
+            <div id="tabs-4">
+                <p>Content for DRAMA</p>
+            </div>
+            <div id="tabs-5">
+                <p>Content for FILM</p>
+            </div>
+        </div>
+      </div>
+      <script type='text/javascript'>//<![CDATA[
+
+      var app = angular.module('myApp', [])
+      .controller('MainController', function ($scope) {
+      })
+      .directive('cdTabs', function() {
+          return {
+              restrict: 'A',
+              link: function(scope, elm, attrs) {
+                  var jqueryElm = $(elm[0]);
+                  $(jqueryElm).tabs()
+              }
+          };
+      })
+
+      //]]> 
+
+      </script>
+  </body>
+</html>
+

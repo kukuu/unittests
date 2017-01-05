@@ -1,0 +1,26 @@
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+<script type="text/javascript">
+	var app = angular.module('app',[]);
+
+	app.factory('ExampleService',function(){
+	    return {
+	        f1 : function(world){
+	            return 'Hello ' + world;
+	        }
+	    };
+	});
+</script>
+<!--At the console inject this:
+1. Instatiate an injector
+	var $inj = angular.injector(['app']);
+	var serv = $inj.get('ExampleService');
+	serv.f1("World");
+-->
+<script type="text/javascript">
+	// @if DEBUG
+	function getSrv(name, element) {
+	    element = element || '*[ng-app]';
+	    return angular.element(element).injector().get(name);
+	}
+	// @endif
+</script>

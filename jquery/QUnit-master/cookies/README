@@ -1,0 +1,19 @@
+js-simple-storage interface is defined as follows:
+
+    object Storage {
+        string setItem(key, value);     // returns key back
+        string getItem(key);            // returns value for corresponding key, null if no key is found
+        void removeItem(key);           // removes the given key
+        void clear();                   // clear all keys in the store
+    };
+    
+It may well extend or change in shape in the future, however this initial object should be just that;
+
+One of the important implementation detail is:
+    that is covers both document.cookie and window.localStorage; using which ever is present, with
+    window.localStorage preceding the document.cookie as the preferred method of storing;
+
+Note that document.cookie on most browsers only allow certain number of keys to be stored; The numbers
+are around 50-55 for most Webkit browsers however these may reduce depending on the size of the key and
+value of the cookie. The window.localStorage however are capable of dealing with much larger amounts of
+data, at last count exceeding more than, but not limited to, 1000 keys.
