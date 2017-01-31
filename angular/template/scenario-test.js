@@ -1,7 +1,10 @@
-//Author: Alexander Adu-Sarkodie
 /*
-****************
-****************
+********************************
+********************************
+Author: Alexander Adu-Sarkodie
+********************************
+********************************
+
 
 It's easy for a semi-technical manager to say "write all tests at the start",
  but the truth is, you often don't know all the small
@@ -13,11 +16,16 @@ refactoring and abstracting parts away, tidying up what's
 going in and coming out of functions, trying to preempt any of this is going to cause a lot of wasted time.
 
 Scenario
+............
+////////////////////////////////////////////////////////////////////////////////
 User story: "As a user, when I login to my app, I am taken to the dashboard page."
+/////////////////////////////////////////////////////////////////////////////////
+
+
 How do we break it down into tests? Break it down like this:  
 Story → Features → Units
-I'll immediately select the 'login form' as a feature of this story which I can test, 
-and I'll  add the following test outlines for the important units 
+1. I'll immediately select the 'login form' as a feature of this story which I can test, 
+2. And I'll  add the following test outlines for the important units 
 that are required to implement this feature correctly:
 
 ****************
@@ -28,8 +36,12 @@ that are required to implement this feature correctly:
 describe('user login form', function() {
 
     // critical
+    //Evaluation "it" blocks for each test
+    //1.
     it('ensure invalid email addresses are caught', function() {});
+    //2
     it('ensure valid email addresses pass validation', function() {});
+    //3
     it('ensure submitting form changes path', function() { });
 
     // nice-to-haves

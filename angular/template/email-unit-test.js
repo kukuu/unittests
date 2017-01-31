@@ -1,4 +1,10 @@
-//Author: Alexander Adu-Sarkodie
+/*
+********************************
+********************************
+Author: Alexander Adu-Sarkodie
+********************************
+********************************
+*/
 
 describe("User login unit test", function() {
 

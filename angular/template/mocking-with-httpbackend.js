@@ -1,9 +1,15 @@
-//Author: Alexander Adu-Sarkodie
+/*
+********************************
+********************************
+Author: Alexander Adu-Sarkodie
+********************************
+********************************
+*/
 
 it('should get login success',
   inject(function(LoginService, $httpBackend) {
 
-    $httpBackend.expect('POST', 'https://api.mydomain.com/login')
+    $httpBackend.expect('POST', 'https://api.www.goldhawk-college.com/istudio/login')
       .respond(200, "[{ success : 'true', id : 123 }]");
 
     LoginService.login('test@test.com', 'password')
