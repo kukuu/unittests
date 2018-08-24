@@ -16,11 +16,12 @@ SpecRunner.html
 
 Red -FAIL
 
-Spec
+//Spec
 
 expect( kata.fizzBuzz( 3 ) )
     .toEqual( 'Fizz' );
-fizzBuzz.js
+
+//fizzBuzz.js
 
 var fizzBuzz : function( test ){
     //nothing is here yet
@@ -33,10 +34,11 @@ var fizzBuzz : function( test ){
 Green
 The simplest implementation.
 
-Spec
+//Spec
 
 expect(kata.fizzBuzz(3)).toEqual('Fizz');
-fizzBuzz.js
+
+//fizzBuzz.js
 
 var fizzBuzz : function( test ){
     return "Fizz";
@@ -47,12 +49,13 @@ var fizzBuzz : function( test ){
 ```
 Refactor
 
-Spec
+//Spec
 
 expect(kata.fizzBuzz(3)).toEqual('Fizz');
 
 expect(kata.fizzBuzz(0)).toEqual( '' );
-fizzBuzz.js
+
+//fizzBuzz.js
 
 var fizzBuzz : function( test ){
     return "Fizz";
@@ -81,7 +84,8 @@ Spec
 expect(kata.fizzBuzz(3)).toEqual('Fizz');
 
 expect(kata.fizzBuzz(0)).toEqual( '' );
-fizzBuzz.js
+
+//fizzBuzz.js
 
 var fizzBuzz : function( test ){
   if ( test % 3 === 0 ){
