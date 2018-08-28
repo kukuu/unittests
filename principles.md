@@ -22,9 +22,9 @@ ng-test
 
 
 ```
-Use describe for a "suit"
+Use ''describe'' for a "suit"
 
-it for a series of "specs"
+''it'' for a series of "specs"
 
 ```
 
