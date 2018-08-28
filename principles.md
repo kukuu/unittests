@@ -1,3 +1,16 @@
+# Types
+
+1. Unit Test - Testing a function in isolation
+
+2. Integration Test - Testing a Component with template interaction
+
+2. End to End Test - Tesring the entire application as a whole, including user interaction, service calls etc
+
+# Test Pyramid (Coverage)
+
+https://github.com/kukuu/AGILITY/blob/master/white-paper/architectural-solutions/test-pyramid-coverage%20(1).jpg
+
+
 # Clean code practices
 
 
@@ -130,3 +143,15 @@ afterAll( () => {
 })
 
 ```
+
+# Resources
+
+1. https://www.youtube.com/watch?v=yG4FH60fhUE 
+
+2. https://www.youtube.com/watch?v=sU2lF3gDKHI 
+
+3. https://medium.com/developing-an-angular-4-web-app/setting-up-our-angular-4-project-from-scratch-bdbc616f92f2
+
+4. https://github.com/theintern/example-angular
+
+
