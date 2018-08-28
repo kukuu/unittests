@@ -5,5 +5,10 @@ export class DimensionCalculator {
 
 		return length * breadth;
 	}
+
+	public getPerimeter( length: number, breadth:number): number {
+
+		return 2 * (length + breadth )
+	}
 	
 }
