@@ -1,5 +1,5 @@
 
-class DimensionCalculator( length:number, breadth:number): number {
+export class DimensionCalculator( length:number, breadth:number): number {
 	
 	function getArea(){
 
