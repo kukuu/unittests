@@ -21,7 +21,7 @@ describe('Dimension calculator', () => {
 		let dimCalc: DimensionCalculator = new DimensionCalculator;
 		
 		//const area = dimCalc.getPerieter(4, 19);
-		const area = dimCalc.getPerimeter(20, 5);
+		const area = dimCalc.getPerimeter(20, 30);
 
 		expect(area)toBe(100);
 
