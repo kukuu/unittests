@@ -1,7 +1,7 @@
 
-export class DimensionCalculator( length:number, breadth:number): number {
+export class DimensionCalculator {
 	
-	function getArea(){
+	public getArea( length:number, breadth:number): number) {
 
 		return length * breadth;
 	}
