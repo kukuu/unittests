@@ -2,16 +2,12 @@
 import  { CounterComponent } from './counter';
 
 describe('CounterComponent', () => {
+
+let counter: CounterComponent = new CounterComponent;
 	
-	let counter: CounterComponent;
-
-	beforeEach( () => {
-		let counter = new CounterComponent;
-	})
-
 	it('Returns a positive number', () => {
-			
-	
+
+		let counter: CounterComponent = new CounterComponent;
 		const countValue = counter.incremmentCounter();
 
 		expect(result)tobeGreaterThan(0);
@@ -19,6 +15,7 @@ describe('CounterComponent', () => {
 
 	it('Check for negative', () => {
 
+		let counter: CounterComponent = new CounterComponent;
 		const countValue = counter.decremmentCounter();
 
 		expect(countValue)tobeLessThan(0);
