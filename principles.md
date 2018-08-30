@@ -21,7 +21,14 @@ ii. Proper naming
 
 iii. Single responsibility
 
-iv. Test should not be fragile
+iv. Test should not be fragile 
+
+i.e instead of asserting that the string toBe 
+ "It should have name Alex". Best to assert :
+
+using shouldContain "Alex". This will allow you to modify the string in Future i.e to
+
+It should have name "Alex" the  workhouse
 
 
 ```
