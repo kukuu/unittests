@@ -6,7 +6,7 @@ describe('CounterComponent', () => {
 	let counter: CounterComponent;
 
 	beforeEach( () => {
-		let counter = new CounterComponent;
+		counter = new CounterComponent;
 	})
 
 	it('Returns a positive number', () => {
