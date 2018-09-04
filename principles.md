@@ -157,6 +157,12 @@ afterAll( () => {
 
 2. https://www.youtube.com/watch?v=yG4FH60fhUE 
 
+3.  Using Karma:
+
+  i. Setting up Karma - https://www.youtube.com/watch?v=A6qQGC_P4kg
+  
+  ii. Writing Tests - https://www.youtube.com/watch?v=ejHUJvukhOI
+
 3. https://www.youtube.com/watch?v=sU2lF3gDKHI 
 
 4. https://medium.com/developing-an-angular-4-web-app/setting-up-our-angular-4-project-from-scratch-bdbc616f92f2
