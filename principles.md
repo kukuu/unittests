@@ -153,12 +153,14 @@ afterAll( () => {
 
 # Resources
 
-1. https://www.youtube.com/watch?v=yG4FH60fhUE 
+1. https://github.com/kukuu/unittests/tree/master/typescript/src/app
 
-2. https://www.youtube.com/watch?v=sU2lF3gDKHI 
+2. https://www.youtube.com/watch?v=yG4FH60fhUE 
 
-3. https://medium.com/developing-an-angular-4-web-app/setting-up-our-angular-4-project-from-scratch-bdbc616f92f2
+3. https://www.youtube.com/watch?v=sU2lF3gDKHI 
 
-4. https://github.com/theintern/example-angular
+4. https://medium.com/developing-an-angular-4-web-app/setting-up-our-angular-4-project-from-scratch-bdbc616f92f2
+
+5. https://github.com/theintern/example-angular
 
 
