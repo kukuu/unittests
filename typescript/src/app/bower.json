@@ -1,0 +1,21 @@
+{
+  "name": "app",
+  "homepage": "https://github.com/kukuu/unittests",
+  "authors": [
+    "Alexander Adu-Sarkodie <aadusarkodie1@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-mocks": "^1.7.3"
+  }
+}
