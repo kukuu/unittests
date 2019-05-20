@@ -1,0 +1,20 @@
+{
+  "name": "jest-enzyme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "create-react-app": "^3.0.1",
+    "enzyme": "^3.9.0",
+    "jest": "^24.8.0",
+    "react": "^16.8.6",
+    "react-addons-test-utils": "^15.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
