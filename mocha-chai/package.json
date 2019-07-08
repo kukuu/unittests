@@ -1,0 +1,19 @@
+{
+  "name": "mocha-chai",
+  "version": "1.0.0",
+  "description": "Unit Test with Mocha Chai",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "Mocha",
+    "Chai"
+  ],
+  "author": "Alexander Adu-Sarkodie",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
