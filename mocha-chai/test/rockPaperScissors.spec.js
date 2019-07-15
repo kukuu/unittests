@@ -1,6 +1,6 @@
 
 let rockPaperScissors = require('./rockPaperScissors.js');
-let expect = require('chai'(.expect;
+let expect = require('chai').expect;
 
 describe('rockPaperScissors', () => {
 	
